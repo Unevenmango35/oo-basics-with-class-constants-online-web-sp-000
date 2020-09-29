@@ -6,8 +6,9 @@ BRANDS=[]
     @brand = brand
   end
   
-  def brand
-    @brand
+  def brand=(brand)
+    @brand = brand
+    
   end
 
   def cobble
